@@ -1,4 +1,8 @@
 # JBL-Flip-3-Emulator
+
+## Overview
+![Main Preview](assets/img/main.png)
+
 Welcome to the github repository of my JBL Flip 3 emulator project. The aim of this project is to reproduce the tactile and sonic experience of this iconic portable speaker using both hardware and software developed by myself.
 
 Technical aspects:
