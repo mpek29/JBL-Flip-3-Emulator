@@ -1,15 +1,29 @@
 # JBL-Flip-3-Emulator
 
-## Overview
+## 🚀 Overview
 ![Main Preview](assets/img/main.png)
 
-Welcome to the github repository of my JBL Flip 3 emulator project. The aim of this project is to reproduce the tactile and sonic experience of this iconic portable speaker using both hardware and software developed by myself.
+An open-source project aimed at reproducing the tactile and sonic experience of the iconic JBL Flip 3 portable speaker. This emulator utilizes both hardware and software developed by myself, providing a customizable and engaging audio experience.
 
-Technical aspects:
-* **Hardware**: battery charge management and voltage conversion to power an ESP32, which handles Bluetooth functionality as well as the various buttons and LEDs.
+## 🎯 Purpose
+- 🎵 **Tactile and sonic experience**: Mimicking the feel and sound of the JBL Flip 3.
+- 🛠️ **Skill development**: Enhancing expertise in hardware integration and Bluetooth functionality.
+- 🔄 **Modular design**: Facilitating repairs and promoting sustainability by reusing components.
 
-* **Software**: I use the Espressif audio development framework to develop a complete firmware. This controls volume, emits sounds for various actions and generates an audio stream via I2S communication between the ESP32 and a MAX98357 amplifier.
+## 📝 Technical Aspects
 
-The system is modularly designed for ease of repair and maximum durability. I also took care to reuse components I already had in stock.
-I'd like to thank Adafruit, my main source of inspiration, notably through their “Aluminum Mounting Grid”, of which I printed a 3D copy with my Ender3, as well as for their excellent modules whose standard format I used.
+| Feature                   | Details                                                            |
+|---------------------------|--------------------------------------------------------------------|
+| 🔋 **Hardware**            | Battery charge management and voltage conversion for ESP32         |
+| 📡 **Bluetooth Functionality** | Managed by ESP32 for wireless audio streaming                     |
+| 🔊 **Audio Control**       | Developed using the Espressif audio framework                      |
+| ⚡ **Amplifier Interface**  | I2S communication with MAX98357 amplifier                          |
+| 🛠️ **Modular Design**      | Designed for ease of repair and durability                         |
+
+## 🙏 Acknowledgments
+I would like to thank Adafruit for their inspiration, especially for their “Aluminum Mounting Grid,” which I printed a 3D copy of with my Ender3. Their excellent modules have significantly influenced my design choices.
+
+## 🌟 License
+This project is open-source. Feel free to use, modify, and contribute! 🚀
+
 Please don't hesitate to contact me if you have any questions.
